@@ -1,0 +1,84 @@
+[
+    {
+      "name": "Sarah Johnson",
+      "quote": "This box changed the way I enjoy my hobbies. Everything is so personalized!",
+      "photo": "https://i.postimg.cc/tRV5n8m6/360-F-396167959-a-Ah-Zi-Gl-Joe-XOBHiv-Mva-O0-Aloxvhg3e-VT.jpg",
+      "rating": 4.8,
+      "location": "New York, USA",
+      "date": "2024-12-10",
+      "tags": ["Hobbies", "Personalized", "Quality"]
+    },
+    {
+      "name": "Alex Chen",
+      "quote": "Excellent customer support and always delivers on time. Highly recommended!",
+      "photo": "https://i.postimg.cc/LXG30Vhh/slide-2.png",
+      "rating": 5.0,
+      "location": "Toronto, Canada",
+      "date": "2025-01-15",
+      "tags": ["Support", "Timely", "Reliable"]
+    },
+    {
+      "name": "Maria Gomez",
+      "quote": "Love the surprises I get every month. Totally worth the subscription!",
+      "photo": "https://i.postimg.cc/2yv7pBBG/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confide.avif",
+      "rating": 4.7,
+      "location": "Madrid, Spain",
+      "date": "2025-03-02",
+      "tags": ["Subscription", "Surprise", "Fun"]
+    },
+    {
+      "name": "James Lee",
+      "quote": "Fantastic experience! The customization options are amazing.",
+      "photo": "https://images.unsplash.com/photo-1613323593608-abc90fec84ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "rating": 4.9,
+      "location": "Seoul, South Korea",
+      "date": "2025-01-28",
+      "tags": ["Customization", "Unique", "Experience"]
+    },
+    {
+      "name": "Emily Davis",
+      "quote": "Every month feels like a gift. It’s so exciting to unbox!",
+      "photo": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "rating": 4.6,
+      "location": "London, UK",
+      "date": "2025-02-10",
+      "tags": ["Unboxing", "Excitement", "Gift"]
+    },
+    {
+      "name": "Michael Brown",
+      "quote": "Quality products and reliable service. Can't ask for more.",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "rating": 4.5,
+      "location": "Chicago, USA",
+      "date": "2024-11-19",
+      "tags": ["Quality", "Reliable", "Service"]
+    },
+    {
+      "name": "Aisha Patel",
+      "quote": "The best subscription service I've ever tried!",
+      "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "rating": 4.9,
+      "location": "Mumbai, India",
+      "date": "2025-03-01",
+      "tags": ["Best", "Subscription", "Reliable"]
+    },
+    {
+      "name": "Daniel Thompson",
+      "quote": "The variety in each box is impressive. Great value!",
+      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "rating": 4.7,
+      "location": "Melbourne, Australia",
+      "date": "2025-01-05",
+      "tags": ["Variety", "Value", "Exciting"]
+    },
+    {
+      "name": "Olivia Martin",
+      "quote": "Their support team is super friendly and helpful. Love it!",
+      "photo": "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "rating": 5.0,
+      "location": "Paris, France",
+      "date": "2025-02-22",
+      "tags": ["Support", "Friendly", "Helpful"]
+    }
+  ]
+  

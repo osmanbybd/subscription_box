@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Essentials",
+    "thumbnail": "https://images.unsplash.com/photo-1562408590-e32931084e23?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Technology",
+    "price": 24.99,
+    "frequency": "Monthly",
+    "estimatedValue": "$40+",
+    "deliveryTime": "5-7 business days",
+    "tags": ["Best Seller", "Trending", "Editor's Pick"],
+    "description": "Latest tech gadgets including USB hubs, portable chargers, and smart accessories.",
+    "features": [
+      "3-5 trending gadgets",
+      "Fast-charging accessories",
+      "Free setup guide",
+      "Cancel anytime"
+    ],
+    "rating": 4.4,
+    "reviews": [
+      { "user": "Rafi", "comment": "Loved it!", "rating": 5 },
+      { "user": "Nila", "comment": "Useful gadgets!", "rating": 4 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Healthy Living",
+    "thumbnail": "https://images.unsplash.com/photo-1574516653809-64d1517de929?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Health & Wellness",
+    "price": 19.99,
+    "frequency": "Monthly",
+    "estimatedValue": "$40+",
+    "deliveryTime": "5-7 business days",
+    "tags": ["Popular", "Wellness", "Editor's Pick"],
+    "description": "Organic snacks, herbal teas, workout guides, and wellness tips for a better lifestyle.",
+    "features": [
+      "Organic food items",
+      "Detox herbal teas",
+      "Wellness guides",
+      "Free consultation tips"
+    ],
+    "rating": 4.6,
+    "reviews": [
+      { "user": "Sadia", "comment": "Very refreshing box!", "rating": 5 },
+      { "user": "Tuhin", "comment": "Good mix of items.", "rating": 4 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Creative Crafters",
+    "thumbnail": "https://images.unsplash.com/photo-1512218946813-fb770726f07e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "DIY & Crafts",
+    "price": 21.5,
+    "frequency": "Monthly",
+    "estimatedValue": "$40+",
+    "deliveryTime": "5-7 business days",
+    "tags": ["Crafts", "Kids Friendly", "Top Rated"],
+    "description": "DIY craft kits, art supplies, and creative tools to boost your imagination.",
+    "features": [
+      "DIY projects for all ages",
+      "Quality craft supplies",
+      "Art tutorials included",
+      "Great for kids and adults"
+    ],
+    "rating": 4.3,
+    "reviews": [
+      { "user": "Farhan", "comment": "My kids loved it!", "rating": 5 },
+      { "user": "Tania", "comment": "Could have more variety.", "rating": 4 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Global Treats",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1732823992275-ca006eb6fbdd?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Food & Culture",
+    "price": 29.99,
+    "frequency": "Quarterly",
+    "estimatedValue": "$40+",
+    "deliveryTime": "5-7 business days",
+    "tags": ["International", "Limited Edition", "Foodie Favorite"],
+    "description": "A tasty journey with snacks, candies, and delicacies from different countries.",
+    "features": [
+      "Snacks from 5+ countries",
+      "Sweet & salty varieties",
+      "Cultural fact cards included",
+      "Limited edition treats"
+    ],
+    "rating": 4.7,
+    "reviews": [
+      { "user": "Asif", "comment": "Loved trying international snacks!", "rating": 5 },
+      { "user": "Mou", "comment": "Fun and tasty!", "rating": 4 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Eco-Friendly",
+    "thumbnail": "https://images.unsplash.com/photo-1630586450644-684e310044dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Sustainability",
+    "price": 22.0,
+    "frequency": "Monthly",
+    "estimatedValue": "$40+",
+    "deliveryTime": "5-7 business days",
+    "tags": ["Eco", "Sustainable", "Plastic Free"],
+    "description": "Sustainable products like reusable bags, bamboo brushes, and zero-waste items.",
+    "features": [
+      "Plastic-free products",
+      "Reusable home items",
+      "Eco-conscious packaging",
+      "Supports green causes"
+    ],
+    "rating": 4.5,
+    "reviews": [
+      { "user": "Siam", "comment": "Good for environment lovers.", "rating": 5 },
+      { "user": "Rumi", "comment": "Very useful items.", "rating": 4 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Digital Nomad",
+    "thumbnail": "https://images.unsplash.com/photo-1664575197229-3bbebc281874?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Remote Work",
+    "price": 27.99,
+    "frequency": "Monthly",
+    "estimatedValue": "$40+",
+    "deliveryTime": "5-7 business days",
+    "tags": ["Work Anywhere", "Freelancer", "Top Gear"],
+    "description": "Work-from-anywhere essentials including organizers, productivity tools, and tech gear.",
+    "features": [
+      "Laptop stand & travel gear",
+      "Productivity planners",
+      "Online resource access",
+      "Perfect for freelancers"
+    ],
+    "rating": 4.6,
+    "reviews": [
+      { "user": "Rayhan", "comment": "Helped me stay organized!", "rating": 5 },
+      { "user": "Meherin", "comment": "High quality items.", "rating": 4 }
+    ]
+  }
+]
