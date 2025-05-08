@@ -2,12 +2,14 @@ import React, { use, useState } from 'react';
 import { AuthContext } from '../provider/AuthCotext';
 import { Link, useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
+import { IoIosEye, IoIosEyeOff } from 'react-icons/io';
 
 
 const Register = () => {
 
     const {createUser,setUser,updateUser} =use(AuthContext)
      const navigate = useNavigate()     
+     const [showPassword, setShowPassword] =useState(false)
     
 
         const handleRegister = (e) =>{
@@ -16,6 +18,7 @@ const Register = () => {
             const photo = e.target.photo.value;
             const email = e.target.email.value;
             const password = e.target.password.value;
+            
 
             // console.log(name, photo,email, password)
 
@@ -80,10 +83,12 @@ const Register = () => {
                 <input  type="email" name="email" id="email" placeholder="Your Email" className="w-full px-4 py-3 rounded-md border border-gray-200 shadow-lg" />
             </div>
             {/* password */}
-            <div className="space-y-1 text-sm">
+            <div className="space-y-1 text-sm relative">
                 <label htmlFor="password" className="block dark:text-gray-600">Password</label>
                 <input type="password" name="password" id="password" placeholder="Password" className="w-full px-4 py-3 rounded-md border border-gray-200 shadow-lg" />
-               
+                <span onClick={()=> setShowPassword(!showPassword)} className='absolute right-4 top-10 '>
+                                   {showPassword ? <IoIosEye size={20} /> : <IoIosEyeOff size={20}/>}
+                               </span>
             </div>
             <button type='submit' className="block w-full p-3 text-center rounded-sm dark:text-gray-50 dark:bg-violet-600">Sign Up</button>
         </form>
