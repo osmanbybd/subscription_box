@@ -5,7 +5,6 @@ import { auth } from '../../firebase/firebae.init';
 
 const AuthProvider = ({children}) => {
 
-
     const [user,setUser] =useState(null)
     const [loading, setLoading] = useState(false)
 
