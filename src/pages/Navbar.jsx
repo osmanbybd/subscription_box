@@ -65,7 +65,7 @@ const Navbar = () => {
     <li className='text-lg font-bold'><NavLink to='/profile'>Profile</NavLink></li>
     <li className='text-lg font-bold'><NavLink to='/contact'>contact Us</NavLink></li>
     {
-      user && <li className='text-lg font-bold'><NavLink to='/faq'>FAG</NavLink></li>
+      user && <li className='text-lg font-bold'><NavLink to='/faq'>FAQ</NavLink></li>
     }
 
      
