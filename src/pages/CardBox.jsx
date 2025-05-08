@@ -12,7 +12,7 @@ const CardBox = ({allBox}) => {
     },[])
 
 
-    console.log(allBox)
+    // console.log(allBox)
 
     const {thumbnail,category,price,frequency,id} =allBox
 

@@ -19,11 +19,11 @@ import { IoIosEye, IoIosEyeOff } from 'react-icons/io';
             const email = e.target.email.value;
             const password = e.target.password.value;
 
-            console.log(email,password)
+            // console.log(email,password)
 
             LoginUser(email,password)
             .then(result => {
-                console.log(result)
+                // console.log(result)
                 navigate(location.state || '/')
                 toast.success("log In successFully")
                 setLoading(true)

@@ -6,7 +6,7 @@ const Catergory = () => {
 
     const {id} = useParams()
     const data = useLoaderData()
-    console.log(data)
+    // console.log(data)
 
 
         const selelctDetails = data.find(service => service.id == id)
@@ -14,7 +14,7 @@ const Catergory = () => {
     
 
 
-        console.log(selelctDetails)
+        // console.log(selelctDetails)
         const {thumbnail,name,features,rating,price,frequency,description,} =selelctDetails;
 
 

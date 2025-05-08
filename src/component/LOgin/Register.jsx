@@ -17,7 +17,7 @@ const Register = () => {
             const email = e.target.email.value;
             const password = e.target.password.value;
 
-            console.log(name, photo,email, password)
+            // console.log(name, photo,email, password)
 
 
                 const regaxPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;

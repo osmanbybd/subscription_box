@@ -5,7 +5,7 @@ import CardBox from './CardBox';
 const BoxesCard = () => {
 
     const allBoxes = useLoaderData()
-    console.log(allBoxes)
+    // console.log(allBoxes)
 
    
     return (
