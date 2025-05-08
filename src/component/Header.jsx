@@ -78,7 +78,7 @@ const Header = () => {
         <div className='flex justify-center items-center py-3'>
           <FaTeamspeak className='text-purple-500' size={40}></FaTeamspeak>
          </div>
-    <h2 className="text-2xl font-bold text-black">Creative Crafters</h2>
+    <h2 className="text-2xl font-bold text-black">Creative Carecters</h2>
     <p className="text-sm mt-2 text-black">DIY craft kits to unleash your creative side every month.</p>
   </div>
         </SwiperSlide>
