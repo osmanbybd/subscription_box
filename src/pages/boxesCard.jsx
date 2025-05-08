@@ -17,7 +17,7 @@ const BoxesCard = () => {
         </div>
         <div className='w-8/12  mx-auto my-5 grid md:grid-cols-1 lg:grid-cols-3 gap-4'>
             {
-                allBoxes.map(allBox => <CardBox allBox={allBox}></CardBox>)
+                allBoxes.map(allBox => <CardBox key={allBox.id} allBox={allBox}></CardBox>)
             }
         </div>
 

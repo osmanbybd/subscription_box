@@ -11,6 +11,8 @@ import ForgotPassword from "../pages/ForgotPassword";
 import PrivateRoute from "../component/privateRoute/PrivateRoute";
 import Contact from "../pages/Contact";
 import FAQSection from "../pages/FaqSection";
+import Invalide from "../pages/Invalide";
+import Loading from "../component/Loading";
 
 
 
@@ -27,7 +29,8 @@ export const router = createBrowserRouter([
             {
                 path: 'viewMore',
                 loader :()=> fetch('subscription.json'),     
-                element:<BoxesCard></BoxesCard>
+                element:<BoxesCard></BoxesCard>,
+                hydrateFallbackElement:<Loading></Loading>
             },
             {
 
@@ -36,6 +39,7 @@ export const router = createBrowserRouter([
                 path: '/category/:id',
                 loader :()=> fetch('/subscription.json'),  
                 element:<PrivateRoute><Catergory></Catergory></PrivateRoute>,
+                hydrateFallbackElement:<Loading></Loading>
 
             },
             {
@@ -68,7 +72,12 @@ export const router = createBrowserRouter([
                 path:'/auth/register',
                 Component:Register
             },
+            
          
         ]
+    },
+    {
+        path :'/*',
+        Component: Invalide
     }
 ])

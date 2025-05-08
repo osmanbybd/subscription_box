@@ -31,9 +31,9 @@ const FeadBack = () => {
             <p className='text-center text-gray-600'>Discover a curated collection of premium products every month, tailored to your interests and lifestyle. Each box is packed with <br /> handpicked items designed to inspire, simplify, or delight — delivered straight to your door.</p>
          <div className='grid md:grid-cols-1 lg:grid-cols-3 gap-4' data-aos="fade-up" >
          {
-                displayCard.map(customar => 
+                displayCard.map((customar, index) => 
                     
-                    <div className='text-center border border-gray-200 shadow-xl   p-15 ' >
+                    <div key={index} className='text-center border border-gray-200 shadow-xl   p-15 ' >
                         <img className='w-19 h-19 rounded-full mx-auto bg-gray-300 p-2' src={customar.photo} alt="" />
                         <h1 className='text-xl font-bold py-5'>{customar.name}</h1>
                         <h1 className='text-lg text-gray-500'>{customar.quote}</h1>

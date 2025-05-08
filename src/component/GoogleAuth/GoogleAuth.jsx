@@ -4,11 +4,15 @@ import { FcGoogle } from 'react-icons/fc';
 import { AuthContext } from '../provider/AuthCotext';
 import { GithubAuthProvider, GoogleAuthProvider } from 'firebase/auth';
 import { toast } from 'react-toastify';
+import { useLocation, useNavigate } from 'react-router';
 
 const GoogleAuth = () => {
+
     const {googleUser,setUser,githubUser} =use(AuthContext)
     const provider = new GoogleAuthProvider()
     const githubProvider = new GithubAuthProvider()
+    const navigate = useNavigate()
+    const location = useLocation()
 
     const handleGoogleSignIn = () =>{
 
@@ -16,6 +20,7 @@ const GoogleAuth = () => {
         .then((result) =>{
             toast.success("google log in success")
             setUser(result.user.photoURL)
+            navigate( '/')  
         })
         .catch(() =>{
             toast.error("pla")
@@ -34,7 +39,8 @@ const GoogleAuth = () => {
                 if(loginUser.providerData[0].email){
                     loginUser.email = loginUser.providerData[0].email;
                         setUser(loginUser)
-                        console.log(loginUser)
+                        navigate(location.state || '/')  
+                        
                 }
             }
 

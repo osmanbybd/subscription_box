@@ -7,7 +7,7 @@ import { IoIosEye, IoIosEyeOff } from 'react-icons/io';
     
     const Login = () => {
 
-        const {LoginUser}= use(AuthContext)
+        const {LoginUser,setLoading}= use(AuthContext)
         const [email, setEmail] =useState('')
         const [showPassword , setShowPassword] = useState(false)
         const navigate = useNavigate();
@@ -26,6 +26,7 @@ import { IoIosEye, IoIosEyeOff } from 'react-icons/io';
                 console.log(result)
                 navigate(location.state || '/')
                 toast.success("log In successFully")
+                setLoading(true)
             })
             .catch(error =>{
                 console.log(error)

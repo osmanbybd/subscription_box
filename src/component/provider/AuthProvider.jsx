@@ -7,6 +7,7 @@ const AuthProvider = ({children}) => {
 
 
     const [user,setUser] =useState(null)
+    const [loading, setLoading] = useState(false)
 
     const createUser = (email,password) =>{
         return createUserWithEmailAndPassword(auth,email,password)
@@ -14,6 +15,7 @@ const AuthProvider = ({children}) => {
 
     const LoginUser = (email,password) =>{
         return signInWithEmailAndPassword(auth,email,password)
+    
     }
 
 
@@ -44,6 +46,7 @@ const AuthProvider = ({children}) => {
             const unsubScribe = onAuthStateChanged(auth, currentUser=>{
 
                 setUser(currentUser)
+                setLoading(false)
             })
 
             return () =>{
@@ -62,7 +65,9 @@ const AuthProvider = ({children}) => {
         updateUser,
         restPassword,
         googleUser,
-        githubUser
+        githubUser,
+        loading,
+        setLoading
     }
 
 

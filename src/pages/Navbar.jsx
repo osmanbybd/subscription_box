@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router';
 import logo from '../assets/user.png'
 import { AuthContext } from '../component/provider/AuthCotext';
 import { toast } from 'react-toastify';
+import Loading from '../component/Loading';
 
 
 const Navbar = () => {
@@ -10,11 +11,17 @@ const Navbar = () => {
   const {user,logOut} =use(AuthContext)
 
 
+
+
+
   const handleLogOut =( ) =>{
     logOut()
     .then(result => {
       console.log(result)
       toast.error("Log Out ")
+        if(!user){
+    return <Loading></Loading>
+  }
       
     })
     .catch(error =>{

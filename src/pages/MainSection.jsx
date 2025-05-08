@@ -3,10 +3,10 @@ import { Link } from 'react-router';
 
 
 
-const MainSection = ({data}) => {
+const MainSection = () => {
 
   
-    console.log(data)
+   
     return (
      <div>
          <div  className='bg-gradient-to-r from-[#2c96d3] to-[#16a890] py-5 mx-8 shadow-xl rounded-lg'>
