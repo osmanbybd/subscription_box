@@ -10,6 +10,7 @@ import Profile from "../pages/Profile";
 import ForgotPassword from "../pages/ForgotPassword";
 import PrivateRoute from "../component/privateRoute/PrivateRoute";
 import Contact from "../pages/Contact";
+import FAQSection from "../pages/FaqSection";
 
 
 
@@ -48,6 +49,10 @@ export const router = createBrowserRouter([
             {
                 path : 'contact',
                 element: <Contact></Contact>
+            },
+            {
+                path:'faq',
+                Component: FAQSection
             }
         ]
     },

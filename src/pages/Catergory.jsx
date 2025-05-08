@@ -46,11 +46,11 @@ const Catergory = () => {
 
     return (
        <div>
-         <div className="hero h-100 border border-gray-200 rounded-lg lg:shadow-lg container mx-auto mt-3 ">
+         <div className="hero h-100 border flex flex-col lg:flex-row gap-6 border-gray-200 rounded-lg lg:shadow-lg container mx-auto mt-3 ">
         <div className="hero-content grid lg:grid-cols-2  ">
           <img
             src={thumbnail}
-            className="w-[330px] rounded-lg shadow-2xl"
+            className="w-full max-w-xs rounded-lg shadow-2xl"
           />
           <div >
             <h1 className="text-5xl font-bold">{name}</h1>
@@ -62,7 +62,7 @@ const Catergory = () => {
                 features.map(feature => <li className='text-lg'>{feature}</li>)
             }
           </div>
-          <div className='flex justify-between py-4'>
+          <div className='flex flex-col md:flex-row md:items-center md:justify-between py-4'>
             <h1 className='text-lg-center font-bold'>{price} $</h1>
             <h1 className='text-lg-center font-bold'>{frequency}</h1>
           </div>

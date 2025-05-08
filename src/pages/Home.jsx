@@ -16,7 +16,7 @@ const Home = () => {
            <div className='my-24 container mx-auto'>
             <MainSection></MainSection>
            </div>
-           <div className='mt-10 container mx-auto'>
+           <div className='mt-10  container mx-auto'>
             <FeadBack></FeadBack>
            </div>
            <div className='container mx-auto'>

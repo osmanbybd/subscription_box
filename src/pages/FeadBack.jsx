@@ -26,10 +26,10 @@ const FeadBack = () => {
         const displayCard =  showAll ? customars : customars.slice(0 , 6)
 
     return (
-        <div  className='my-10 space-y-7 '>
+        <div  className='my-10 space-y-7 mx-5'>
             <h1 className='text-3xl font-bold text-center'>What Our Customers Say</h1>
             <p className='text-center text-gray-600'>Discover a curated collection of premium products every month, tailored to your interests and lifestyle. Each box is packed with <br /> handpicked items designed to inspire, simplify, or delight — delivered straight to your door.</p>
-         <div className='grid md:grid-cols-3 gap-4' data-aos="fade-up" >
+         <div className='grid md:grid-cols-1 lg:grid-cols-3 gap-4' data-aos="fade-up" >
          {
                 displayCard.map(customar => 
                     

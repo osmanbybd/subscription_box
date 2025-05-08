@@ -9,7 +9,7 @@ const MainSection = ({data}) => {
     console.log(data)
     return (
      <div>
-         <div  className='bg-gradient-to-r from-[#2c96d3] to-[#16a890] py-5 shadow-xl rounded-lg'>
+         <div  className='bg-gradient-to-r from-[#2c96d3] to-[#16a890] py-5 mx-8 shadow-xl rounded-lg'>
           <div className='text-center'>
           <h1 className='text-3xl font-bold py-3'>
             Design Wizard Collection

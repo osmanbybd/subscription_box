@@ -6,7 +6,7 @@ import Footer from '../pages/Footer';
 const Root = () => {
     return (
   <div>
-   <header className='py-2 border border-gray-200 shadow-lg mb-4'>
+   <header className='py-2 border  border-gray-200 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shadow-lg mb-4'>
    <Navbar></Navbar>
    </header>
     <div className='min-h-[63vh] bg-gray-100'>
