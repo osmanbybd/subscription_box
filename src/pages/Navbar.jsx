@@ -45,7 +45,7 @@ const Navbar = () => {
         <li><Link to='/profile'>Profile</Link></li>
         <li><Link to='/contact'>contact Us</Link></li>
         {
-      user && <li className='text-lg font-bold'><NavLink to='/faq'>FAG</NavLink></li>
+      user && <li className='text-lg font-bold'><NavLink to='/faq'>FAQ</NavLink></li>
     }
        {
         user ? <button onClick={handleLogOut} className="btn btn-secondary">logout</button>:
