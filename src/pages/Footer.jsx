@@ -56,7 +56,7 @@ const Footer = () => {
 			</div>
 		</div>
 	</div>
-	<div className="py-6 text-sm text-center dark:text-gray-600">© 1968 PH-Hero. All rights reserved. </div>
+	<div className="py-6 text-sm text-center dark:text-gray-600">© 1968 PH-Hero. All rights reserved. developer by osman</div>
 </footer>
     );
 };
